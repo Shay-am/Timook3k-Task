@@ -33,7 +33,9 @@ export const Word = ({ row, col, handleSetSelectedWord, data }) => {
           </Text>
         )}
       </Info>
-      <Text color={getColor}>{item}</Text>
+      <Text size=".8rem" color={getColor}>
+        {item}
+      </Text>
     </Wrapper>
   );
 };
