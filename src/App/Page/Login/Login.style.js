@@ -6,8 +6,13 @@ export const LoginWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  gap: 10px;
+  margin: 20px auto;
   text-align: center;
+
+  @media (max-width: 868px) {
+    width: 80vw;
+  }
 `;
 
 export const InputWrapper = styled.div`

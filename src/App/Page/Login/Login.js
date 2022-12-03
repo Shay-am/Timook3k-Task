@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../../Components/Button/Button";
 import { Input } from "../../../Components/Input/Input";
-import { InputWrapper } from "./Login.style";
+import { InputWrapper, LoginWrapper } from "./Login.style";
 import { Form } from "../../../Components/Form/Form";
 import { Heading } from "../../../Components/Heading/Heading";
 import { GameContext } from "../../../App";
@@ -33,7 +33,7 @@ const Login = () => {
   };
 
   return (
-    <Wrapper>
+    <LoginWrapper>
       <Heading>Wordcloud game</Heading>
       <Form onSubmit={handleSubmit}>
         <InputWrapper>
@@ -57,7 +57,7 @@ const Login = () => {
           play
         </Button>
       </Form>
-    </Wrapper>
+    </LoginWrapper>
   );
 };
 
