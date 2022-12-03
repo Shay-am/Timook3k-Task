@@ -14,8 +14,8 @@ export const Score = () => {
   };
   return (
     <ScoreWrapper>
-      <Text size={"1.9rem"}>Congratulations, {name}</Text>
-      <Text size={"1.5rem"}>Your score:</Text>
+      <Text size="1.9rem">Congratulations, {name}</Text>
+      <Text size="1.5rem">Your score:</Text>
       <Text size={"1.4rem"}>
         {result}{" "}
         <Text size={"1.4rem"} color="#00BFFF">

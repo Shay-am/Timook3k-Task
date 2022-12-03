@@ -28,14 +28,12 @@ export const Word = ({ row, col, handleSetSelectedWord, data }) => {
     <Wrapper row={row} col={col} onClick={handleCheckWord}>
       <Info>
         {isCorrect && (
-          <Text medium color={getColor}>
+          <Text size="1.2rem" color={getColor}>
             {description}
           </Text>
         )}
       </Info>
-      <Text small color={getColor}>
-        {item}
-      </Text>
+      <Text color={getColor}>{item}</Text>
     </Wrapper>
   );
 };

@@ -43,7 +43,7 @@ const Game = () => {
     );
 
     filteredAllwords.map((word) => {
-      setCheckedWords((prevState) => ({
+      return setCheckedWords((prevState) => ({
         ...prevState,
         allwords: prevState.allwords.map((item) => {
           if (item.item === word.item) {
@@ -84,6 +84,7 @@ const Game = () => {
 
   useEffect(() => {
     setResult(calcualteResult());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [checkedWords]);
 
   const handleNavigate = () => {
