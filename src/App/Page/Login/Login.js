@@ -7,7 +7,6 @@ import { Form } from "../../../Components/Form/Form";
 import { Heading } from "../../../Components/Heading/Heading";
 import { GameContext } from "../../../App";
 import { Text } from "../../../Components/Text/Text";
-import { Wrapper } from "../../../Components/Wrapper/Wrapper";
 
 const Login = () => {
   const navigate = useNavigate();
