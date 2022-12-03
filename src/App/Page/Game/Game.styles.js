@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
   grid-template-columns: ${({ length }) => `repeat(${length}, 1fr)`};
   grid-template-rows: ${({ length }) => `repeat(${length}, 1fr)`};
   padding: 10px 10px;
-  width: 80vw;
+  width: 50vw;
   height: 50vh;
 
   pointer-events: ${({ isCLickedChecked }) =>
