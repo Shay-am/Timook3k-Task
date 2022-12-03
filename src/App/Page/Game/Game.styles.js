@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
   grid-template-columns: ${({ length }) => `repeat(${length}, 1fr)`};
   grid-template-rows: ${({ length }) => `repeat(${length}, 1fr)`};
   padding: 10px 10px;
+  /* grid-gap: 1px; */
   width: 50vw;
   height: 50vh;
 

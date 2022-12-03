@@ -3,7 +3,7 @@ export const getRandomNumbers = (length) => {
 
   const getNum = () => Math.floor(Math.random() * length) + 1;
 
-  while (numbers.length !== length) {
+  while (numbers.length !== length - 1) {
     let num = getNum();
 
     numbers.includes(num) ? getNum() : numbers.push(num);
